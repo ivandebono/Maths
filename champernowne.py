@@ -20,7 +20,7 @@ OUTPUT  champernowne_str: string representation of Champernowne's constant
 from decimal import getcontext, Decimal 
 import numpy
 
-def Champernowne(last,base=10): 
+def champernowne(last,base=10): 
 
     champernowne_str = "0."
     for c in range(1,last+1):

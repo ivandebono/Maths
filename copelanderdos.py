@@ -20,7 +20,7 @@ from decimal import getcontext, Decimal
 import numpy as np
 import sympy
 
-def CopelandErdos(n): 
+def copelanderdos(n): 
 
     # First generate list of primes up to n
     primes=[]
